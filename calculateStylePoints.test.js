@@ -17,6 +17,7 @@ describe('Style Points', () => {
 
         assert.equal(actual, expected);
     });
+    
     it('should return a number when notes are different.', () => {
         const actual = stylePoints([18, 17.5, 14, 16.5, 19]);
         
