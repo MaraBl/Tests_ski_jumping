@@ -1,0 +1,22 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha *test.js",
+    "test:watch": "onchange \"./*.js\" -- npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "",
+  "devDependencies": {
+    "mocha": "^6.2.0",
+    "onchange": "^6.1.0"
+  },
+  "keywords": []
+}
